@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            font-size: 40px;
+        }
+        html{
+            scroll-behavior: smooth;
+            /*Чому плавний скрол не прцює?*/
+        }
+
+
+
+
+
+        #text1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            height: 100vh;
+            width: 100vw;
+            background: red;
+        }
+
+        #text2{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            background: navy;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<section>
+    <div id="text1">
+        <h1 style="font-size: 60px">Selection Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+        <a href="#text2" style="font-size: 100px; color: black" >&#8595;</a>
+
+    </div>
+</section>
+
+<section>
+    <div id="text2">
+        <a href="#text1" style="font-size: 100px; color: black" >&#8593; </a>
+        <h1 style="font-size: 60px">Selection Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, explicabo?</p>
+
+    </div>
+</section>
+
+
+</body>
+</html>
