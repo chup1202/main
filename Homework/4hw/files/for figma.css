@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+.bbox {
+    height: 393px;
+    width: 1058px;
+    display: flex;
+
+
+}
+
+.first {
+    background-image: url("image 4.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background: #FAF9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 84px;
+    font-size: 30px;
+
+
+}
+
+.hf {
+    font-size: 45px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 53px;
+
+
+}
+
+.pf {
+    font-size: 25px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+
+}
+
+/*///////////////////////////////////////////////////////Second section//////////////////////////////////////////////*/
+.second {
+    background: url("Rectangle 4.png") lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+iframe {
+    width: 949px;
+    height: 533px;
+    flex-shrink: 0;
+    margin-bottom: 105px;
+
+
+}
+
+span {
+    margin-bottom: 87px;
+    font-size: 35px;
+    width: 949px;
+    height: 183px;
+
+}
+
+/*/////////////////////////////////////3rdsection/////////////////////////////*/
+.third {
+    background: url("Rectangle 4.png") lightgray 50% / cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.all3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+h1, p {
+    font-size: 35px;
+
+
+}
+
+.fifty {
+    background: rgba(83, 83, 83, 0.40);
+    width: 453px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.seventy {
+    background: rgba(83, 83, 83, 0.40);
+    width: 453px;
+    height: 700px;
+    flex-shrink: 0;
+
+}
+
+.eighty {
+    background: rgba(83, 83, 83, 0.40);
+    width: 453px;
+    height: 700px;
+    flex-shrink: 0;
+}
