@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        form {
+            width: 350px;
+            height: 410px;
+            border: gray solid 1px;
+            display: flex;
+            /*justify-content: center;*/
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+
+        img {
+            width: 175px;
+            height: auto;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        input {
+            height: 36px;
+            width: 250px;
+        }
+
+        .input1 {
+            margin-bottom: 8px;
+            text-align: left;
+            border-radius: 5px;
+            border: gray solid 1px;
+            background-color: rgba(128, 128, 128, 0.07);
+        }
+
+        .input2 {
+            text-align: left;
+            border-radius: 5px;
+            border: gray solid 1px;
+            background-color: rgba(128, 128, 128, 0.07);
+        }
+
+        button {
+            margin-top: 13px;
+            height: 36px;
+            width: 255px;
+            color: white;
+            background-color: rgba(35, 162, 231, 0.85);
+            border-radius: 5px;
+            border-style: none;
+
+
+        }
+
+        span {
+            margin-top: 8px;
+
+        }
+
+        .fb {
+            font-size: 20px;
+            color: rgba(35, 162, 231, 0.85);
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .gp {
+            height: 25px;
+            width: 25px;
+            vertical-align: middle;
+
+
+        }
+
+        .frg {
+            color: rgba(35, 162, 231, 0.85);
+
+        }
+        .bott{
+            margin-top: 12px;
+            width: 350px;
+            height: 60px;
+            border: gray solid 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+    <form action="">
+        <img src="0_iTH-GlZsIqx7l5qw.png" alt="#">
+        <div class="input">
+            <input type="text" name="username" required class="input1" placeholder="Введіть логін">
+
+            <input type="password" name="password" required class="input2" placeholder="Введіть пароль">
+            <button>Увійти</button>
+            <span>АБО</span>
+            <span class="fb"> <a href="https://www.facebook.com/login/"><img class="gp" alt="#"
+                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nO2ZzUrDQBDH82S7Vby1JTsoPpAieFBv0qMP4UyEQq03L4KWWh/Am4eASXupYEeiWL9o6W5jdgPzgzku+f/2m00UCYIgBE3DYKwArxTgRANxFaUAJwqor+KkvVZ4beiwqtB6URk8cO557+HhU4Ja1gLFtAlI4NJewODYe3CYV24tEEBo/l4ioEvoxc2dhI86Q767TznLpzyb8Q+CHoGN7YSvb554GTpkgePOcGn44AUGo5RrLZCPX/4E3ju55a3di5Xaexd4/b1imd/XxartvQvYThktAvA/vb6I52wa3gjYMBil9RY47z7WW+D07CE8AdmFQEaAZAppOYlJdiGWbRTkNspyEuu6XSVUyU+L6wlgZi8A1C/7QudcBnv2AnHS9h4cPqoB2IxcKH4u+A6vgPadwn9JUKt4n6/yuV0V3zLYc+55QRCEqCreAAESa+zxbT1rAAAAAElFTkSuQmCC"><b>Увійти через Facebook</b></a></span>
+            <a href="#" class="frg" style="margin-top: 20px; font-size: 20px" > Забули пароль?</a>
+
+        </div>
+
+
+    </form>
+    <div class="bott">
+        <p> Не маєте облікового запису? <a href="#" style="color: deepskyblue"><b>Зареєструйтеся</b></a></p>
+    </div>
+</main>
+
+</body>
+</html>
