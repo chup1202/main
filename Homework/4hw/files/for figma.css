@@ -125,22 +125,22 @@ h1, p {
 
 .fifty {
     background: rgba(83, 83, 83, 0.40);
-    width: 30%;
-    height: 700px;
+    width: 30vw;
+    height: 68vh;
     flex-shrink: 0;
 }
 
 .seventy {
     background: rgba(83, 83, 83, 0.40);
-    width: 30%;
-    height: 700px;
+    width: 30vw;
+    height: 68vh;
     flex-shrink: 0;
 
 }
 
 .eighty {
     background: rgba(83, 83, 83, 0.40);
-    width: 30%;
-    height: 700px;
+    width: 30vw;
+    height: 68vh;
     flex-shrink: 0;
 }
